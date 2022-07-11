@@ -1,0 +1,11 @@
+Collecting python-jose
+  Using cached python_jose-3.3.0-py2.py3-none-any.whl (33 kB)
+Collecting rsa
+  Using cached rsa-4.8-py3-none-any.whl (39 kB)
+Collecting ecdsa!=0.15
+  Using cached ecdsa-0.18.0-py2.py3-none-any.whl (142 kB)
+Collecting pyasn1
+  Using cached pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+Requirement already satisfied: six>=1.9.0 in c:\neelima_project\fsnd\projects\capstone\heroku_sample\starter\env\lib\site-packages (from ecdsa!=0.15->python-jose) (1.16.0)
+Installing collected packages: pyasn1, rsa, ecdsa, python-jose
+Successfully installed ecdsa-0.18.0 pyasn1-0.4.8 python-jose-3.3.0 rsa-4.8
