@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export AUTH0_DOMAIN=dev-puhr22ja.us.auth0.com'
+export AUTH0_DOMAIN=dev-puhr22ja.us.auth0.com
 export ALGORITHMS=RS256
 export API_AUDIENCE=casting
 export CLIENT_ID=UxKj5sdY2TIvwdxJaYkgLRhgGKStxtPA
