@@ -70,6 +70,10 @@ PATCH /movies/<int:id>
 
 **Roles**: All 3 roles have been defined in Auth0 and following permissions as shown for each role below are also defined in Auth0.
 
+AUTH0_DOMAIN, ALGORITHMS and API_AUDIENCE are all available in the setup.sh file for reference. Json Web Tokens: You can find JWTs for each role in the setup.sh file to run the app locally.
+
+Roles: All 3 roles have been defined in Auth0 and following permissions as shown for each role below are also defined in Auth0.
+
 - **Casting Assistant
     get /actors 
     get /movies

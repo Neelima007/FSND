@@ -12,14 +12,14 @@ Variables for executing the app locally
     API_AUDIENCE = 'cagency'
 '''
 
-AUTH0_DOMAIN = 'dev-puhr22ja.us.auth0.com'
-ALGORITHMS = ['RS256']
-API_AUDIENCE = 'casting'
+#AUTH0_DOMAIN = 'dev-puhr22ja.us.auth0.com'
+#ALGORITHMS = ['RS256']
+#API_AUDIENCE = 'casting'
 
 
-#AUTH0_DOMAIN = os.environ.get('AUTH0_DOMAIN')
-#ALGORITHMS = os.environ.get('ALGORITHMS')
-#API_AUDIENCE = os.environ.get('API_AUDIENCE')
+AUTH0_DOMAIN = os.environ.get('AUTH0_DOMAIN')
+ALGORITHMS = os.environ.get('ALGORITHMS')
+API_AUDIENCE = os.environ.get('API_AUDIENCE')
 
 
 '''
