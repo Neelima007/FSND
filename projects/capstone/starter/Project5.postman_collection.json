@@ -1,0 +1,551 @@
+{
+	"info": {
+		"_postman_id": "cba7b221-0de7-475d-a293-c76787ccec0e",
+		"name": "Project5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Casting Assistant",
+			"item": [
+				{
+					"name": "get movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkRVRFhUdTV0SWhHZ2VuLVJvWGxhbSJ9.eyJpc3MiOiJodHRwczovL2Rldi1wdWhyMjJqYS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjJjYzRlZDcxMzZjN2YwMzkyNWY0NmY0IiwiYXVkIjoiY2FzdGluZyIsImlhdCI6MTY1NzYyNDcxOSwiZXhwIjoxNjU3NjMxOTE5LCJhenAiOiJVeEtqNXNkWTJUSXZ3ZHhKYVlrZ0xSaGdHS1N0eHRQQSIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.ieuHB-vgn1cJYX0ru1Mb9E8YvG2QaJG5iuJ2O9ZFo9yPKwEWrStj0UiiKjnOIrRpqSgfrGMhxCsSbVa8q1YnZZHDTvs34qh4Rl4FI_pV_w75AnQuNdCgljLoNLePf_J8cp-rb8zSOH4VkMM4GiI0WdYVw1MXlWr-YlbA59e3pOLwFOmpv8RsZYqZRQRRrwcLCWYRN0zHZ9Z3LS2nqk-jyet8dMl1YKrqNzMKwZZCc6y_eABXabKS07VP287KE5YfNgLx605Lw6dr80BgNmffTVBGq1cZ4l2FrT5rbfetNjgGfAAwwFyO-arkpoD6V-2Sw0VMwSpQ5kFh_Ykk1SO1UA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/movies",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkRVRFhUdTV0SWhHZ2VuLVJvWGxhbSJ9.eyJpc3MiOiJodHRwczovL2Rldi1wdWhyMjJqYS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjJjYzRlZDcxMzZjN2YwMzkyNWY0NmY0IiwiYXVkIjoiY2FzdGluZyIsImlhdCI6MTY1NzYyNDcxOSwiZXhwIjoxNjU3NjMxOTE5LCJhenAiOiJVeEtqNXNkWTJUSXZ3ZHhKYVlrZ0xSaGdHS1N0eHRQQSIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.ieuHB-vgn1cJYX0ru1Mb9E8YvG2QaJG5iuJ2O9ZFo9yPKwEWrStj0UiiKjnOIrRpqSgfrGMhxCsSbVa8q1YnZZHDTvs34qh4Rl4FI_pV_w75AnQuNdCgljLoNLePf_J8cp-rb8zSOH4VkMM4GiI0WdYVw1MXlWr-YlbA59e3pOLwFOmpv8RsZYqZRQRRrwcLCWYRN0zHZ9Z3LS2nqk-jyet8dMl1YKrqNzMKwZZCc6y_eABXabKS07VP287KE5YfNgLx605Lw6dr80BgNmffTVBGq1cZ4l2FrT5rbfetNjgGfAAwwFyO-arkpoD6V-2Sw0VMwSpQ5kFh_Ykk1SO1UA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/actors",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkRVRFhUdTV0SWhHZ2VuLVJvWGxhbSJ9.eyJpc3MiOiJodHRwczovL2Rldi1wdWhyMjJqYS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjJjYzRlZDcxMzZjN2YwMzkyNWY0NmY0IiwiYXVkIjoiY2FzdGluZyIsImlhdCI6MTY1NzU2NTk1MCwiZXhwIjoxNjU3NTczMTUwLCJhenAiOiJVeEtqNXNkWTJUSXZ3ZHhKYVlrZ0xSaGdHS1N0eHRQQSIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.lniXchZrbQDcE4JNSnTkupSVWJToRU7-Rtb_Xv8jNoIi5uvYsVf6G2S5uP_y2zXsx-90JZoNQm0V51-UudSA48xkx_wLA0rsIz3m_L9kaJoT3vaFqPX9dMF6ypdVRpN0Az5QY6Vhe1DmZrfHTvHwMHME3zNfC305lgLOWXbWYq_1j4JFqyqTF4qhu5rL5Oxty7LXBXgZG2WDbBVgtiCsOO9ZIqAGiAES-Xhv5ogqdFszSt6nq4DKG5761L-zp8XGRJbPWA2fZZRQz_bY2ouQX9ceBnAT4gayEO5vc8P9D6IqhJk1Q6pZ8_CbetIL7OalK5tBJ2Q4TnZBGCDKMofWOw",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Casting Director",
+			"item": [
+				{
+					"name": "get actors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/actors",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get movies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/movies",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post actors",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n    \"name\":\"sjkd\",\r\n    \"gender\":\"Male\",\r\n    \"age\":\"67\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/actors",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete actor",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/actors/3",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch actor",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"update\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/actors/2",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch movie",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \r\n            \"title\": \"Updated movie\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/movies/1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"movies",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkRVRFhUdTV0SWhHZ2VuLVJvWGxhbSJ9.eyJpc3MiOiJodHRwczovL2Rldi1wdWhyMjJqYS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjJjYzRmMzIxMzZjN2YwMzkyNWY0NzE3IiwiYXVkIjoiY2FzdGluZyIsImlhdCI6MTY1NzYyNTE3NCwiZXhwIjoxNjU3NjMyMzc0LCJhenAiOiJVeEtqNXNkWTJUSXZ3ZHhKYVlrZ0xSaGdHS1N0eHRQQSIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.B6D6EH-iftp7USNiwnvRQ3jZQtC06BTWzJBe69KCxt7hno7ymFnwiwjU95xHuIEc-DALYNJpu3vCfGHUhH_tXae4zumShZSBMJr7T3BSB9NQoPPKqMeBynP_Hq4HqhXP8QeFVLq9E9jnR2gE7xd_3AbDeHo2hQcSiHtqvAjYbdptP2zbF-4frBrzsqb6o_AZxwovVxUkt0lOVHdnG8NdT5A0hJRA4vmgNbFCPoSiBqX30ufCs44ptHm7snqfN1biU2bkjz3QCD3i8dOCPxkJsaiqVyYcSWrPIENqM-wW-J2GciJ4sDoEIkj9hvArBBCNqkxmQbW2iqt9yhFCrqwfvQ",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Executive Producer",
+			"item": [
+				{
+					"name": "get actors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/actors",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get movies",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/movies",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post actors",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n    \"name\":\"Mahesh\",\r\n    \"gender\":\"Male\",\r\n    \"age\":\"40\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/actors",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete actor",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/actors/4",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch actor",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"update through EP\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/actors/2",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"actors",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Patch movie",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \r\n            \"title\": \"Updated movie through EP\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/movies/1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"movies",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Post movies",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n            \r\n            \"release_date\": \"Sun, 10 Oct 2067 18:30:00 GMT\",\r\n            \"title\": \"DDLJ\"\r\n        }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/movies",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete movie",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://myapp-08091997.herokuapp.com/movies/3",
+							"protocol": "https",
+							"host": [
+								"myapp-08091997",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"movies",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkRVRFhUdTV0SWhHZ2VuLVJvWGxhbSJ9.eyJpc3MiOiJodHRwczovL2Rldi1wdWhyMjJqYS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjJjYzRmNzVkZjMzMTAxNTZmNWYzM2RjIiwiYXVkIjoiY2FzdGluZyIsImlhdCI6MTY1NzYyNTQ3OSwiZXhwIjoxNjU3NjMyNjc5LCJhenAiOiJVeEtqNXNkWTJUSXZ3ZHhKYVlrZ0xSaGdHS1N0eHRQQSIsInNjb3BlIjoiIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.WLcM4DUS58ny05wwfJcb3u8fOzXkgl8rS4_tETSHTN-w7RCrylbtFgUvZirBQfFNilIwKkJn0OJVsR4t7HC-ZlnNxdEEK8fkVgbLuhNfjflDZm5XPkvTsXsdZuoLGJ6fi8O9jcbTOhFrOQEckpRIcOXIYHlWq6OoMaKX779fjWIkoFKBtzeOeIfMEnTdQ1nqAQX_AUeXhOiz7q26Yr0eLtus4NNaZ1-sup8WO-BAkYJdpASeBfM-z1-dE_THItwtezNTq1dPuu76zPNRRdOOoMYonLKMXL8oSphkjoXSrtpZzfL7srA_ajBOFlF5t0U8aGp0Fmj526izFaFzXfgfCg",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
