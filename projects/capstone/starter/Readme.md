@@ -106,13 +106,8 @@ Use the above stated endpoints and append to this link above to execute the app 
 For example:
 
 ```bash
-$ curl -X GET https://harsh-casting-agency.herokuapp.com//actors?page=1
-$ curl -X POST https://harsh-casting-agency.herokuapp.com//actors
-$ curl -X PATCH https://harsh-casting-agency.herokuapp.com//actors/1
-$ curl -X DELETE https://harsh-casting-agency.herokuapp.com//actors/1
-```
-
-Similarly, you can build these for /movies endpoints too.
+All the details and requests are provided in postman collection .Add the authentication and run the requests.
+.
 
 ## Testing:
 
